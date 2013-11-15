@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+
+{% block title %} Mapas {% endblock %}
+
+
+{% block contenido %} 
+
+	        <div class="page-header">
+	          <h1>Mapa Solar Bio-Bío</h1>
+	        </div>
+
+      <div class="row featurette">
+        <div class="col-md-3">
+          <h2 class="featurette-heading">Busca tu casa!! <span class="text-muted">Elije la energía solar</span></h2>
+          <p class="lead">Con este sistema podrás saber, tus posibles beneficios si optas por la energía solar, ayuda al planeta y hagamos de Chile un país líder en energía solar.</p>
+
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Panel de informacion</h3>
+            </div>
+            <div class="panel-body">
+              -Exelente:
+              <div class="progress">
+                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuemax="100" style="width: 100%">
+                </div>
+              </div>
+              <br><br>
+              -Suficiente:
+              <br><br>
+              -Malo:  
+			  <br><br>
+              <p><a href="" class="btn btn-primary btn-sm">Calcular &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">  
+          <iframe width="845" height="580" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.cl/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=http:%2F%2Fugit.gorebiobio.cl%2F%3Fwpfb_dl%3D90&amp;aq=&amp;sll=-37.250068,-72.479127&amp;sspn=3.677064,3.158569&amp;ie=UTF8&amp;t=h&amp;ll=-36.740535,-73.057022&amp;spn=0.264118,0.439453&amp;z=11&amp;output=embed"></iframe><br /><small><a href="https://maps.google.cl/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=http:%2F%2Fugit.gorebiobio.cl%2F%3Fwpfb_dl%3D90&amp;aq=&amp;sll=-37.250068,-72.479127&amp;sspn=3.677064,3.158569&amp;ie=UTF8&amp;t=h&amp;ll=-36.740535,-73.057022&amp;spn=0.264118,0.439453&amp;z=11" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+{% endblock %}
